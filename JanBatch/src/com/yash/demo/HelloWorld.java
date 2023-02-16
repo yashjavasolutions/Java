@@ -42,7 +42,9 @@ public class HelloWorld {
     for (Iterator<Employee> it = employees.iterator(); it.hasNext(); )  { 
     	System.out.println(it.next().getEmployeeName());
           }*/
-   
+	
+	employees.stream().filter(s->s.getEmployeeName().startsWith("S")).forEach(e->System.out.println(e.getEmployeeName()));
+   /*
     
     List<Integer> numbers = Arrays.asList(1,2,3,4,5,6);
 
