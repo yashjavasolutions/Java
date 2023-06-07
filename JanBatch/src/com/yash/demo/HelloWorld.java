@@ -31,7 +31,19 @@ public class HelloWorld {
 	employees.add(e2);
 	employees.add(e3);
 	employees.add(e4);
-	employees.add(e5);/*
+	employees.add(e5);
+	
+	
+	HashMap<Integer, Employee> employeeMap = new HashMap<>();
+	employeeMap.put(1,e1);
+	
+	System.out.println(employeeMap.get(1).getEmployeeName());
+	
+	/*
+	
+	
+	
+	
 	for (Employee e : employees)   
 		
 		{System.out.println(e.getEmployeeName());

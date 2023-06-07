@@ -5,14 +5,6 @@ public class HelloWorldImpl1  implements HelloWorld{
 	private String message;
 	
 	
-	
-
-	public HelloWorldImpl1(String message) {
-		
-		this.message = message;
-	}
-
-
 
 	public String getMessage() {
 		return message;
